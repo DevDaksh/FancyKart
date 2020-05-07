@@ -59,7 +59,7 @@ class Items extends React.Component {
             return (
                 this.state.data.map(el => {
                     return (
-                        <div className="item">
+                        <div className="item" key={el.name}>
                             <img src={el.image} alt="" />
                             <div className="details">
                                 <h1 className="itemName">{el.name}</h1>

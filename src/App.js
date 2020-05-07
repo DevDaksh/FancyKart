@@ -9,6 +9,7 @@ const App = () => {
       <div className="navWrap">
         <Nav />
       </div>
+      <h1 className="head">Clothing</h1>
       <div className="itemWrap">
         <Items />
       </div>
