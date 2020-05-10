@@ -141,7 +141,7 @@ nav{
   height: 15rem;
   width: 13rem;
   border-radius: 10%;
-  border: 1px solid rgba(51, 51, 51, 0.61);
+  border: 1px solid rgba(27, 27, 27, 0.61);
 }
 
 .head{
@@ -160,6 +160,7 @@ nav{
   .navBrand{
     font-size: 4rem;
     line-height: 8rem;
+    margin: 0px 0px 0px 30px;
   }
 
   .navLinks .cart, .navLinks .search, .navLinks .profile{
